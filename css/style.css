@@ -13,20 +13,74 @@
    font-size: 1.5rem;
 }
 
-.navbar-r [class="btn btn-default"]{
+.navbar-r a[class="btn btn-default"]{
    color: #006AFF;
    border-color: #006AFF;
 }
 
-.navbar-r [class="glyphicon glyphicon-menu-hamburger"]{
+.navbar-r span[class="glyphicon glyphicon-menu-hamburger"]{
    color: #3A8AFF;
    font-size: 2rem;
 }
 
 .jumbotron{
-   background-color: #004AFF;
+   background-image: url("../img/bg.svg");
+   background-position: bottom;
    margin-bottom: 0;
+
 }
+
+.jumbotron h1{
+   color: white;
+}
+
+.jumbotron h3{
+   color: #BBCBFC;
+}
+
+.jumbotron .panel-body h2:nth-child(1){
+   color: black;
+}
+
+.jumbotron .panel-body h2:nth-child(2){
+   color: #006AFF;
+}
+
+.jumbotron .panel-body .form-group a[class="btn btn-default"]{
+   color: white;
+   background-color: #579AFF;
+   border-color: #579AFF;
+   width: 100%;
+}
+
+.jumbotron .panel-body button[class="btn btn-default"]{
+   color: #626262;
+   background-color: white;
+   width: 100%;
+}
+
+.jumbotron .panel-body img{
+   width: 18px;
+   float: left;
+}
+
+.jumbotron .panel-body div:last-child {
+   font-size: 1.2rem;
+   margin: 10px 0;
+}
+
+.jumbotron .panel-body a:not([class="btn btn-default"]) {
+   color:  #579AFF;
+   text-decoration: underline;
+}
+
+.jumbotron .panel-body .form-group ::placeholder{
+   font-weight: bold;
+}
+
+
+
+
 
 .partners{
    background-color: #F0F0F0;
@@ -80,9 +134,9 @@ footer{
 
 /*Debug*/
 
-/* [class*="col-"]{
+ [class*="col-"]{
       border: 1px solid black;
-} */
+}
 
 .h-100{
    height:100px;
