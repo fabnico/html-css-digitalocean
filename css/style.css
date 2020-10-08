@@ -173,17 +173,17 @@
    line-height: 36px;
 }
 
-.customers .row .row .col-xs-2{
+.customers .row .col-xs-2{
    color: white;
 }
-.customers .row .row .col-xs-7{
+.customers .row .col-xs-7{
    color: #6F7B97;
 }
-.customers .row .row .col-xs-3{
+.customers .row .col-xs-3{
    color: #579AFF;
 }
 
-.customers .row .row [class="col-xs-7"],.customers .row .row [class="col-xs-2"],.customers .row .row [class="col-xs-3"]{
+.customers .grid-row:not(:last-child){
    border-bottom: 1px solid white;
 }
 
