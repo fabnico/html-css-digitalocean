@@ -2,7 +2,7 @@
 
 Riproduzione responsive di Digital Ocean. 
 
-Tech: HTML/CSS/BootStrap
+Tech: HTML/CSS/Bootstrap
 
 
 ![](DigitalOcean.jpg)
